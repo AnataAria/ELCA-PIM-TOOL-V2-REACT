@@ -1,0 +1,150 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.navbar {
+  color: #666666;
+  height: 30px;
+  /* padding: 10px 50px; */
+  padding-left: 8%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+}
+
+.navbar-title {
+  text-align: center;
+  padding-left: 2%;
+  /* flex-grow: 1; */
+}
+
+.navbar-options {
+  padding-top: 2%;
+  font-size: 10pt;
+  padding-left: 35%;
+  font-weight: 600;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+}
+
+.navbar-options a {
+  margin-left: 40px;
+  text-decoration: none;
+}
+
+.navbar-options a:nth-child(1) {
+  margin-right: 80px;
+}
+
+.container {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-top: 1px solid #ccc;
+}
+
+.left-column {
+  flex-basis: 20%;
+  border-right: 1px solid #ccc;
+  padding-left: 9%;
+  /* position: fixed; */
+}
+
+.right-column {
+  flex-basis: 80%;
+  padding-right: 10px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+.form-group {
+  margin-bottom: 38px;
+  display: flex;
+  align-items: center;
+  color: #666666;
+  /* font-size: 14pt; */
+  /* justify-content: space-between; */
+}
+
+.form-group label {
+  margin-right: 10px;
+  margin-left: 3%;
+  flex-basis: 15%;
+  font-weight: 600;
+}
+
+.form-group input[type="text"],
+.form-group select,
+.form-group input[type="date"] {
+  height: 30px;
+  /* padding: 5px; */
+  /* margin: 0; */
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  /* flex-grow: 1; */
+  width: 58%;
+}
+
+.form-group input[type="text"][name="project-number"],
+.form-group select[name="group"],
+.form-group select[name="status"],
+.form-group input[type="date"][name="start-date"],
+.form-group input[type="date"][name="end-date"] {
+  width: 20%;
+}
+
+.form-group input[type="button"] {
+  font-size: 16px;
+  background-color: #2f85fa;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 50px;
+  height: 35px;
+  width: 200px;
+}
+
+.form-group input[type="button"][value="Cancel"] {
+  background-color: #b9b9b9;
+  font-size: 16px;
+  color: #000000;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 30%;
+}
+
+.line {
+  border-bottom: 1px solid #ccc;
+  width: 77%;
+}
